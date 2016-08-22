@@ -113,7 +113,7 @@ class PhpObfuscator
         $str = str_replace("<?php", "", $str);
         $str = str_replace("<?", "", $str);
         $str = str_replace("?>", "", $str);
-        $str = str_replace("'", "\x22", $str);
+        //$str = str_replace("'", "\x22", $str);
 
         $str = trim($str);
 
